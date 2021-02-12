@@ -12,4 +12,4 @@ addSomething = (num1, num2) => {
     return num1 + num2;
 };
 const output = addSomething(20, 40);
-console.log(result);
+console.log(output);
