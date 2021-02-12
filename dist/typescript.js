@@ -11,5 +11,5 @@ let addSomething;
 addSomething = (num1, num2) => {
     return num1 + num2;
 };
-const result = addSomething(20, 40);
+const output = addSomething(20, 40);
 console.log(result);
