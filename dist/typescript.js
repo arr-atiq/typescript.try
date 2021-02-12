@@ -7,9 +7,13 @@
 // }
 // const user = fullName("john", "dalton");
 // how to start arraow function inside typescript
-let addSomething;
-addSomething = (num1, num2) => {
-    return num1 + num2;
+// let addSomething: (num1: number, num2:number)=> number;
+// addSomething = (num1, num2) => {
+//     return num1+num2;
+// }
+// const result = addSomething(20, 40);
+// console.log(result);
+let player = {
+    club: "Real Madrid",
+    salary: 120000
 };
-const output = addSomething(20, 40);
-console.log(output);

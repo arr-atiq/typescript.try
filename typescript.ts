@@ -12,10 +12,18 @@
 
 // how to start arraow function inside typescript
 
-let addSomething: (num1: number, num2:number)=> number;
+// let addSomething: (num1: number, num2:number)=> number;
 
-addSomething = (num1, num2) => {
-    return num1+num2;
+// addSomething = (num1, num2) => {
+//     return num1+num2;
+// }
+// const result = addSomething(20, 40);
+// console.log(result);
+
+let player: {
+    club: string,
+    salary: number
+} = {
+    club: "Real Madrid",
+    salary: 120000
 }
-const result = addSomething(20, 40);
-console.log(result);
